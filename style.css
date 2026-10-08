@@ -175,3 +175,25 @@
     }
 
 }
+
+.comprehensive-learning{
+    background-color: rgb(251,253,254);
+
+
+}
+
+.comprehensive-learning-header{
+    
+    h2{
+        margin:20px;
+        text-align:center;
+        color:black;
+        font-size:30px;
+    }
+    
+    p{
+        text-align:center;
+        margin-bottom:30px;
+
+    }
+}
