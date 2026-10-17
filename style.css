@@ -124,7 +124,7 @@
     margin-bottom: 10px;
 }
 
-.training-program-cards div{
+.enrollment-detail-box{
     border:1px solid rgb(219,226,236);
     border-radius: 5px;
     padding:10px;
@@ -144,6 +144,10 @@
         font-weight: 400;
         color: rgb(82,96,120);
     }
+}
+
+.Enroll-div-header{
+    display: inline-flex;
 }
 
 .green-beginner-label{
@@ -196,4 +200,38 @@
         margin-bottom:30px;
 
     }
+}
+
+.comprehensive-learning-cards-grid{
+    display: grid;
+    grid-template-columns: repeat(2,80%);
+    column-gap: 20px;
+}
+
+.comprehensive-learning-cards{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+}
+
+.comprehensive-learning-cards-header{
+    /* display: flex; */
+    border: 2px solid red;
+    
+    h3{
+        font:15px;
+    }
+}
+
+.learning-subheader-grid{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+}
+
+.comprehensive-learning-cards-subheader{
+
+    h4{
+        color: black;
+    }
+
+    
 }
